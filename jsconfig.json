@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/app/*": [
+        "src/app/*"
+      ],
+      "@/common/*": [
+        "src/common/*"
+      ],
+      "@/components/*": [
+        "src/common/components/*"
+      ],
+      "@/utils/*": [
+        "src/common/utils/*"
+      ],
+      "@/hooks/*": [
+        "src/common/hooks/*"
+      ],
+      "@/config/*": [
+        "src/common/config/*"
+      ],
+      "@/constants/*": [
+        "src/common/constants/*"
+      ],
+      "@/layouts/*": [
+        "src/layouts/*"
+      ],
+      "@/modules/*": [
+        "src/modules/*"
+      ],
+      "@/pages/*": [
+        "src/pages/*"
+      ],
+      "@/public/*": [
+        "public/*"
+      ],
+      "@/src/*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+    "build",
+    "**/build/*",
+    "out",
+    "**/out/*",
+    "dist",
+    ".vscode",
+    "coverage",
+    ".npm",
+    ".yarn"
+  ]
+}
